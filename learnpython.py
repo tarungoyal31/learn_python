@@ -1,3 +1,16 @@
+name = raw_input("Enter your name: ")
+age = int(raw_input("Enter your age: "))
+
+# Check occurence in a collection
+Names = {"tarun", "goyal"}
+if "tarun" in Names:
+  print "tarun is present in names"
+
+if "Tarun" in Names:
+  print "Tarun is present in names"
+else:
+  print "Tarun is not in names"
+
 para = """This is a Paragraph..
 This continues over the lines..
 """
